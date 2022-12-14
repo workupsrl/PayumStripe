@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace FluxSE\PayumStripe\Action\StripeCheckoutSession;
+namespace Workup\PayumStripe\Action\StripeCheckoutSession;
 
-use FluxSE\PayumStripe\Action\StripeCheckoutSession\Api\StripeCheckoutSessionApiAwareTrait;
+use Workup\PayumStripe\Action\StripeCheckoutSession\Api\StripeCheckoutSessionApiAwareTrait;
 use Payum\Core\Action\ActionInterface;
 use Payum\Core\ApiAwareInterface;
 use Payum\Core\Bridge\Spl\ArrayObject;

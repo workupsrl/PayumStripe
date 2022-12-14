@@ -1,10 +1,10 @@
 <?php
 
-namespace Tests\FluxSE\PayumStripe\Api;
+namespace Tests\Workup\PayumStripe\Api;
 
-use FluxSE\PayumStripe\Api\PaymentMethodTypesAwareInterface;
-use FluxSE\PayumStripe\Api\StripeCheckoutSessionApi;
-use FluxSE\PayumStripe\Api\StripeCheckoutSessionApiInterface;
+use Workup\PayumStripe\Api\PaymentMethodTypesAwareInterface;
+use Workup\PayumStripe\Api\StripeCheckoutSessionApi;
+use Workup\PayumStripe\Api\StripeCheckoutSessionApiInterface;
 use PHPUnit\Framework\TestCase;
 
 final class StripeCheckoutSessionApiTest extends TestCase

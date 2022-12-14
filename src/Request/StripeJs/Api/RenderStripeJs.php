@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace FluxSE\PayumStripe\Request\StripeJs\Api;
+namespace Workup\PayumStripe\Request\StripeJs\Api;
 
 use Payum\Core\Request\Generic;
 use Stripe\ApiResource;

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Tests\FluxSE\PayumStripe\Api;
+namespace Tests\Workup\PayumStripe\Api;
 
-use FluxSE\PayumStripe\Api\KeysAwareInterface;
+use Workup\PayumStripe\Api\KeysAwareInterface;
 use ReflectionClass;
 
 trait KeysAwareApiTest

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace FluxSE\PayumStripe\Action\StripeCheckoutSession\Api;
+namespace Workup\PayumStripe\Action\StripeCheckoutSession\Api;
 
-use FluxSE\PayumStripe\Action\Api\StripeApiAwareTrait;
-use FluxSE\PayumStripe\Api\StripeCheckoutSessionApiInterface;
+use Workup\PayumStripe\Action\Api\StripeApiAwareTrait;
+use Workup\PayumStripe\Api\StripeCheckoutSessionApiInterface;
 
 /**
  * @property StripeCheckoutSessionApiInterface $api

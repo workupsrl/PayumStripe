@@ -1,8 +1,8 @@
 <?php
 
-namespace Tests\FluxSE\PayumStripe\Action;
+namespace Tests\Workup\PayumStripe\Action;
 
-use FluxSE\PayumStripe\Action\StatusPaymentIntentAction;
+use Workup\PayumStripe\Action\StatusPaymentIntentAction;
 use Payum\Core\Action\ActionInterface;
 use Payum\Core\ApiAwareInterface;
 use Payum\Core\GatewayInterface;

@@ -9,6 +9,5 @@ See https://stripe.com/docs/payments/checkout for more information.
 
 ## More
 
- - A Symfony bundle : [flux-se/payum-stripe-checkout-bundle](https://github.com/FLUX-SE/PayumStripeBundle)
- - A Sylius plugin : [flux-se/sylius-payum-stripe-checkout-session-plugin](https://github.com/FLUX-SE/SyliusPayumStripePlugin)
-  
+ - A Symfony bundle : [workup/payum-stripe-checkout-bundle](https://github.com/workup/PayumStripeBundle)
+ - A Sylius plugin : [workup/sylius-payum-stripe-checkout-session-plugin](https://github.com/workup/SyliusPayumStripePlugin)

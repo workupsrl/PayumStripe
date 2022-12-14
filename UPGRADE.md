@@ -2,7 +2,7 @@
 
 _[STRIPE_CHECKOUT_SESSION]_
 
-**BC BREAK**: `FluxSE\PayumStripe\Action\StatusSubscriptionAction` has been removed because it doesn't reflect
+**BC BREAK**: `Workup\PayumStripe\Action\StatusSubscriptionAction` has been removed because it doesn't reflect
 if a subscription has been paid or not, the `Session` will be used instead to know if the payment is paid.
 
 To complete this removal two Stripe webhook events need to be listen now (only for modes : "payment" and "subscription") :
@@ -25,24 +25,24 @@ you made some JS customisations on this template.
 
 # UPGRADE FROM `v1.2.3` TO `v2.0.0`
 
-**BC BREAK**: The class `FluxSE\PayumStripe\CaptureAction` has been moved and split into two classes :
+**BC BREAK**: The class `Workup\PayumStripe\CaptureAction` has been moved and split into two classes :
 
-- `FluxSE\PayumStripe\AbstractCaptureAction` the global Abstract class to handle all `CaptureAction`
-- `FluxSE\PayumStripe\StripeCheckoutSession\CaptureAction` the dedicated `stripe_checkout_session` gateway capture action
+- `Workup\PayumStripe\AbstractCaptureAction` the global Abstract class to handle all `CaptureAction`
+- `Workup\PayumStripe\StripeCheckoutSession\CaptureAction` the dedicated `stripe_checkout_session` gateway capture action
 
 **BC BREAK**: Those classes have been moved to a sub folder :
 
-- `FluxSE\PayumStripe\CaptureAction` to `FluxSE\PayumStripe\StripeCheckoutSession\CaptureAction`
-- `FluxSE\PayumStripe\Api\RedirectToCheckoutAction` to`FluxSE\PayumStripe\Action\StripeCheckoutSession\Api\RedirectToCheckoutAction`
-- `FluxSE\PayumStripe\Request\Api\RedirectToCheckout` to`FluxSE\PayumStripe\Request\StripeCheckoutSession\Api\RedirectToCheckout`
-- `FluxSE\PayumStripe\Api\WebhookEvent\CheckoutSessionCompletedAction` to`FluxSE\PayumStripe\Action\StripeCheckoutSession\Api\WebhookEvent\CheckoutSessionCompletedAction`
+- `Workup\PayumStripe\CaptureAction` to `Workup\PayumStripe\StripeCheckoutSession\CaptureAction`
+- `Workup\PayumStripe\Api\RedirectToCheckoutAction` to`Workup\PayumStripe\Action\StripeCheckoutSession\Api\RedirectToCheckoutAction`
+- `Workup\PayumStripe\Request\Api\RedirectToCheckout` to`Workup\PayumStripe\Request\StripeCheckoutSession\Api\RedirectToCheckout`
+- `Workup\PayumStripe\Api\WebhookEvent\CheckoutSessionCompletedAction` to`Workup\PayumStripe\Action\StripeCheckoutSession\Api\WebhookEvent\CheckoutSessionCompletedAction`
 
 **BC BREAK**: Those classes have been moved or renamed to a sub folder :
 
-- `FluxSE\PayumStripe\JsCaptureAction` to `FluxSE\PayumStripe\StripeJs\CaptureAction`
-- `FluxSE\PayumStripe\JsConvertPaymentAction` to `FluxSE\PayumStripe\StripeJs\ConvertPaymentAction`
-- `FluxSE\PayumStripe\Api\PayAction` to`FluxSE\PayumStripe\Action\StripeJs\Api\RenderStripeJsAction`
-- `FluxSE\PayumStripe\Request\Api\Pay` to`FluxSE\PayumStripe\Request\StripeJs\Api\RenderStripeJs`
+- `Workup\PayumStripe\JsCaptureAction` to `Workup\PayumStripe\StripeJs\CaptureAction`
+- `Workup\PayumStripe\JsConvertPaymentAction` to `Workup\PayumStripe\StripeJs\ConvertPaymentAction`
+- `Workup\PayumStripe\Api\PayAction` to`Workup\PayumStripe\Action\StripeJs\Api\RenderStripeJsAction`
+- `Workup\PayumStripe\Request\Api\Pay` to`Workup\PayumStripe\Request\StripeJs\Api\RenderStripeJs`
 
 **BC BREAK**: Those config keys have been renamed :
 

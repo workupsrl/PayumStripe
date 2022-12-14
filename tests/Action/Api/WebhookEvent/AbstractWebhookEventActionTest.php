@@ -1,10 +1,10 @@
 <?php
 
-namespace Tests\FluxSE\PayumStripe\Action\Api\WebhookEvent;
+namespace Tests\Workup\PayumStripe\Action\Api\WebhookEvent;
 
-use FluxSE\PayumStripe\Action\Api\WebhookEvent\AbstractWebhookEventAction;
-use FluxSE\PayumStripe\Request\Api\WebhookEvent\WebhookEvent;
-use FluxSE\PayumStripe\Wrapper\EventWrapper;
+use Workup\PayumStripe\Action\Api\WebhookEvent\AbstractWebhookEventAction;
+use Workup\PayumStripe\Request\Api\WebhookEvent\WebhookEvent;
+use Workup\PayumStripe\Wrapper\EventWrapper;
 use PHPUnit\Framework\TestCase;
 use Stripe\Event;
 

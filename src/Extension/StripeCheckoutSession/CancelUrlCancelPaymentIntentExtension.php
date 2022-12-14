@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace FluxSE\PayumStripe\Extension\StripeCheckoutSession;
+namespace Workup\PayumStripe\Extension\StripeCheckoutSession;
 
-use FluxSE\PayumStripe\Request\Api\Resource\AbstractCustomCall;
-use FluxSE\PayumStripe\Request\Api\Resource\AllSession;
-use FluxSE\PayumStripe\Request\Api\Resource\ExpireSession;
+use Workup\PayumStripe\Request\Api\Resource\AbstractCustomCall;
+use Workup\PayumStripe\Request\Api\Resource\AllSession;
+use Workup\PayumStripe\Request\Api\Resource\ExpireSession;
 use Payum\Core\Extension\Context;
 use Stripe\Checkout\Session;
 use Stripe\PaymentIntent;
@@ -20,7 +20,7 @@ use Stripe\PaymentIntent;
  *
  * @see https://stripe.com/docs/api/payment_intents/cancel
  * You cannot cancel the PaymentIntent for a Checkout Session. Expire the Checkout Session instead
- * @see https://github.com/FLUX-SE/SyliusPayumStripePlugin/issues/32
+ * @see https://github.com/workup/SyliusPayumStripePlugin/issues/32
  */
 final class CancelUrlCancelPaymentIntentExtension extends AbstractCancelUrlExtension
 {

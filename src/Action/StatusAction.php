@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace FluxSE\PayumStripe\Action;
+namespace Workup\PayumStripe\Action;
 
 use ArrayAccess;
 use Payum\Core\Action\ActionInterface;

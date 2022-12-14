@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace FluxSE\PayumStripe\Action\Api;
+namespace Workup\PayumStripe\Action\Api;
 
-use FluxSE\PayumStripe\Api\KeysAwareInterface;
+use Workup\PayumStripe\Api\KeysAwareInterface;
 use Payum\Core\ApiAwareTrait;
 
 /**

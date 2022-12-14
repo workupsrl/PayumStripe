@@ -1,8 +1,8 @@
 <?php
 
-namespace Tests\FluxSE\PayumStripe\Action\StripeJs;
+namespace Tests\Workup\PayumStripe\Action\StripeJs;
 
-use FluxSE\PayumStripe\Action\StripeJs\ConvertPaymentAction;
+use Workup\PayumStripe\Action\StripeJs\ConvertPaymentAction;
 use Payum\Core\Action\ActionInterface;
 use Payum\Core\ApiAwareInterface;
 use Payum\Core\GatewayInterface;

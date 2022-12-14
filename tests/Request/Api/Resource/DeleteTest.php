@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Tests\FluxSE\PayumStripe\Request\Api\Resource;
+namespace Tests\Workup\PayumStripe\Request\Api\Resource;
 
-use FluxSE\PayumStripe\Request\Api\Resource\AbstractDelete;
-use FluxSE\PayumStripe\Request\Api\Resource\DeleteInterface;
-use FluxSE\PayumStripe\Request\Api\Resource\DeletePlan;
-use FluxSE\PayumStripe\Request\Api\Resource\OptionsAwareInterface;
-use FluxSE\PayumStripe\Request\Api\Resource\ResourceAwareInterface;
+use Workup\PayumStripe\Request\Api\Resource\AbstractDelete;
+use Workup\PayumStripe\Request\Api\Resource\DeleteInterface;
+use Workup\PayumStripe\Request\Api\Resource\DeletePlan;
+use Workup\PayumStripe\Request\Api\Resource\OptionsAwareInterface;
+use Workup\PayumStripe\Request\Api\Resource\ResourceAwareInterface;
 use LogicException;
 use Payum\Core\Request\Generic;
 use PHPUnit\Framework\TestCase;

@@ -1,9 +1,9 @@
 <?php
 
-namespace Tests\FluxSE\PayumStripe\Action\Api;
+namespace Tests\Workup\PayumStripe\Action\Api;
 
-use FluxSE\PayumStripe\Action\Api\ConstructEventAction;
-use FluxSE\PayumStripe\Request\Api\ConstructEvent;
+use Workup\PayumStripe\Action\Api\ConstructEventAction;
+use Workup\PayumStripe\Request\Api\ConstructEvent;
 use Payum\Core\Action\ActionInterface;
 use Payum\Core\ApiAwareInterface;
 use Payum\Core\GatewayInterface;

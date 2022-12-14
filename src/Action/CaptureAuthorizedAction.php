@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace FluxSE\PayumStripe\Action;
+namespace Workup\PayumStripe\Action;
 
 use ArrayObject;
-use FluxSE\PayumStripe\Request\Api\Resource\CapturePaymentIntent;
-use FluxSE\PayumStripe\Request\CaptureAuthorized;
-use FluxSE\PayumStripe\Token\TokenHashKeysInterface;
+use Workup\PayumStripe\Request\Api\Resource\CapturePaymentIntent;
+use Workup\PayumStripe\Request\CaptureAuthorized;
+use Workup\PayumStripe\Token\TokenHashKeysInterface;
 use Payum\Core\Exception\RequestNotSupportedException;
 use Stripe\PaymentIntent;
 

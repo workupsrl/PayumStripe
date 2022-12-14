@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace FluxSE\PayumStripe\Action\Api\WebhookEvent;
+namespace Workup\PayumStripe\Action\Api\WebhookEvent;
 
-use FluxSE\PayumStripe\Request\Api\WebhookEvent\WebhookEvent;
+use Workup\PayumStripe\Request\Api\WebhookEvent\WebhookEvent;
 use Stripe\StripeObject;
 
 abstract class AbstractPaymentIntentAction extends AbstractPaymentAction

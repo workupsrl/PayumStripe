@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace FluxSE\PayumStripe\Action\StripeJs\Api;
+namespace Workup\PayumStripe\Action\StripeJs\Api;
 
-use FluxSE\PayumStripe\Action\Api\StripeApiAwareTrait;
-use FluxSE\PayumStripe\Request\StripeJs\Api\RenderStripeJs;
+use Workup\PayumStripe\Action\Api\StripeApiAwareTrait;
+use Workup\PayumStripe\Request\StripeJs\Api\RenderStripeJs;
 use Payum\Core\Action\ActionInterface;
 use Payum\Core\ApiAwareInterface;
 use Payum\Core\Exception\RequestNotSupportedException;

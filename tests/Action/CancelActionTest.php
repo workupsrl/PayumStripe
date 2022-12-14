@@ -1,11 +1,11 @@
 <?php
 
-namespace Tests\FluxSE\PayumStripe\Action;
+namespace Tests\Workup\PayumStripe\Action;
 
 use ArrayObject;
-use FluxSE\PayumStripe\Action\CancelAction;
-use FluxSE\PayumStripe\Request\Api\Resource\CancelPaymentIntent;
-use FluxSE\PayumStripe\Request\Api\Resource\UpdatePaymentIntent;
+use Workup\PayumStripe\Action\CancelAction;
+use Workup\PayumStripe\Request\Api\Resource\CancelPaymentIntent;
+use Workup\PayumStripe\Request\Api\Resource\UpdatePaymentIntent;
 use LogicException;
 use Payum\Core\Action\ActionInterface;
 use Payum\Core\ApiAwareInterface;

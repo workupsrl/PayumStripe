@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Tests\FluxSE\PayumStripe\Request\Api\Resource;
+namespace Tests\Workup\PayumStripe\Request\Api\Resource;
 
-use FluxSE\PayumStripe\Request\Api\Resource\AbstractAll;
-use FluxSE\PayumStripe\Request\Api\Resource\AllCoupon;
-use FluxSE\PayumStripe\Request\Api\Resource\AllCustomer;
-use FluxSE\PayumStripe\Request\Api\Resource\AllInterface;
-use FluxSE\PayumStripe\Request\Api\Resource\AllInvoice;
-use FluxSE\PayumStripe\Request\Api\Resource\AllSession;
-use FluxSE\PayumStripe\Request\Api\Resource\AllTaxRate;
-use FluxSE\PayumStripe\Request\Api\Resource\OptionsAwareInterface;
+use Workup\PayumStripe\Request\Api\Resource\AbstractAll;
+use Workup\PayumStripe\Request\Api\Resource\AllCoupon;
+use Workup\PayumStripe\Request\Api\Resource\AllCustomer;
+use Workup\PayumStripe\Request\Api\Resource\AllInterface;
+use Workup\PayumStripe\Request\Api\Resource\AllInvoice;
+use Workup\PayumStripe\Request\Api\Resource\AllSession;
+use Workup\PayumStripe\Request\Api\Resource\AllTaxRate;
+use Workup\PayumStripe\Request\Api\Resource\OptionsAwareInterface;
 use LogicException;
 use Payum\Core\Request\Generic;
 use PHPUnit\Framework\TestCase;

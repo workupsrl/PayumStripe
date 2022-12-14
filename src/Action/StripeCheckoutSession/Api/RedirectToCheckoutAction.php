@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace FluxSE\PayumStripe\Action\StripeCheckoutSession\Api;
+namespace Workup\PayumStripe\Action\StripeCheckoutSession\Api;
 
 use ArrayAccess;
-use FluxSE\PayumStripe\Request\StripeCheckoutSession\Api\RedirectToCheckout;
+use Workup\PayumStripe\Request\StripeCheckoutSession\Api\RedirectToCheckout;
 use Payum\Core\Action\ActionInterface;
 use Payum\Core\Exception\RequestNotSupportedException;
 use Payum\Core\Reply\HttpRedirect;

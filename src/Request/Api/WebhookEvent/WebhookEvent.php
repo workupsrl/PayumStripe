@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace FluxSE\PayumStripe\Request\Api\WebhookEvent;
+namespace Workup\PayumStripe\Request\Api\WebhookEvent;
 
-use FluxSE\PayumStripe\Wrapper\EventWrapperInterface;
+use Workup\PayumStripe\Wrapper\EventWrapperInterface;
 use Payum\Core\Request\Generic;
 
 final class WebhookEvent extends Generic

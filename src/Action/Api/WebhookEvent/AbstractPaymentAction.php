@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace FluxSE\PayumStripe\Action\Api\WebhookEvent;
+namespace Workup\PayumStripe\Action\Api\WebhookEvent;
 
 use ArrayAccess;
-use FluxSE\PayumStripe\Request\Api\WebhookEvent\WebhookEvent;
-use FluxSE\PayumStripe\Token\TokenHashKeysInterface;
+use Workup\PayumStripe\Request\Api\WebhookEvent\WebhookEvent;
+use Workup\PayumStripe\Token\TokenHashKeysInterface;
 use Payum\Core\Exception\RequestNotSupportedException;
 use Payum\Core\GatewayAwareInterface;
 use Payum\Core\GatewayAwareTrait;

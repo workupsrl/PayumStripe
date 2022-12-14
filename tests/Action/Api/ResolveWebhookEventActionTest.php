@@ -1,13 +1,13 @@
 <?php
 
-namespace Tests\FluxSE\PayumStripe\Action\Api;
+namespace Tests\Workup\PayumStripe\Action\Api;
 
-use FluxSE\PayumStripe\Action\Api\ResolveWebhookEventAction;
-use FluxSE\PayumStripe\Api\KeysAwareInterface;
-use FluxSE\PayumStripe\Request\Api\ConstructEvent;
-use FluxSE\PayumStripe\Request\Api\ResolveWebhookEvent;
-use FluxSE\PayumStripe\Wrapper\EventWrapper;
-use FluxSE\PayumStripe\Wrapper\EventWrapperInterface;
+use Workup\PayumStripe\Action\Api\ResolveWebhookEventAction;
+use Workup\PayumStripe\Api\KeysAwareInterface;
+use Workup\PayumStripe\Request\Api\ConstructEvent;
+use Workup\PayumStripe\Request\Api\ResolveWebhookEvent;
+use Workup\PayumStripe\Wrapper\EventWrapper;
+use Workup\PayumStripe\Wrapper\EventWrapperInterface;
 use LogicException;
 use Payum\Core\Action\ActionInterface;
 use Payum\Core\ApiAwareInterface;
@@ -17,7 +17,7 @@ use Payum\Core\Request\GetHttpRequest;
 use PHPUnit\Framework\TestCase;
 use Stripe\Event;
 use Stripe\Exception\SignatureVerificationException;
-use Tests\FluxSE\PayumStripe\Action\GatewayAwareTestTrait;
+use Tests\Workup\PayumStripe\Action\GatewayAwareTestTrait;
 
 final class ResolveWebhookEventActionTest extends TestCase
 {

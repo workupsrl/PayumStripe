@@ -1,13 +1,13 @@
 <?php
 
-namespace Tests\FluxSE\PayumStripe\Action\StripeCheckoutSession;
+namespace Tests\Workup\PayumStripe\Action\StripeCheckoutSession;
 
 use ArrayObject;
-use FluxSE\PayumStripe\Action\AbstractCaptureAction;
-use FluxSE\PayumStripe\Action\StripeCheckoutSession\CaptureAction;
-use FluxSE\PayumStripe\Request\Api\Resource\CreateSession;
-use FluxSE\PayumStripe\Request\CaptureAuthorized;
-use FluxSE\PayumStripe\Request\StripeCheckoutSession\Api\RedirectToCheckout;
+use Workup\PayumStripe\Action\AbstractCaptureAction;
+use Workup\PayumStripe\Action\StripeCheckoutSession\CaptureAction;
+use Workup\PayumStripe\Request\Api\Resource\CreateSession;
+use Workup\PayumStripe\Request\CaptureAuthorized;
+use Workup\PayumStripe\Request\StripeCheckoutSession\Api\RedirectToCheckout;
 use LogicException;
 use Payum\Core\Model\Identity;
 use Payum\Core\Model\PaymentInterface;
@@ -23,7 +23,7 @@ use Stripe\Checkout\Session;
 use Stripe\PaymentIntent;
 use Stripe\SetupIntent;
 use Stripe\Subscription;
-use Tests\FluxSE\PayumStripe\Action\GatewayAwareTestTrait;
+use Tests\Workup\PayumStripe\Action\GatewayAwareTestTrait;
 
 final class CaptureActionTest extends TestCase
 {

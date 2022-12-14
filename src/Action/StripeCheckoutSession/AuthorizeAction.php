@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace FluxSE\PayumStripe\Action\StripeCheckoutSession;
+namespace Workup\PayumStripe\Action\StripeCheckoutSession;
 
 use ArrayAccess;
 use ArrayObject;

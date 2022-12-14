@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace FluxSE\PayumStripe\Wrapper;
+namespace Workup\PayumStripe\Wrapper;
 
 use Stripe\Event;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace Tests\FluxSE\PayumStripe\Request\StripeJs\Api;
+namespace Tests\Workup\PayumStripe\Request\StripeJs\Api;
 
-use FluxSE\PayumStripe\Request\StripeJs\Api\RenderStripeJs;
+use Workup\PayumStripe\Request\StripeJs\Api\RenderStripeJs;
 use PHPUnit\Framework\TestCase;
 use Stripe\PaymentIntent;
 

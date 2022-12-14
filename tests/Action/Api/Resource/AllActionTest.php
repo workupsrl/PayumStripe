@@ -2,23 +2,23 @@
 
 declare(strict_types=1);
 
-namespace Tests\FluxSE\PayumStripe\Action\Api\Resource;
+namespace Tests\Workup\PayumStripe\Action\Api\Resource;
 
-use FluxSE\PayumStripe\Action\Api\Resource\AbstractAllAction;
-use FluxSE\PayumStripe\Action\Api\Resource\AllCouponAction;
-use FluxSE\PayumStripe\Action\Api\Resource\AllCustomerAction;
-use FluxSE\PayumStripe\Action\Api\Resource\AllInvoiceAction;
-use FluxSE\PayumStripe\Action\Api\Resource\AllResourceActionInterface;
-use FluxSE\PayumStripe\Action\Api\Resource\AllSessionAction;
-use FluxSE\PayumStripe\Action\Api\Resource\AllTaxRateAction;
-use FluxSE\PayumStripe\Api\KeysAwareInterface;
-use FluxSE\PayumStripe\Request\Api\Resource\AbstractAll;
-use FluxSE\PayumStripe\Request\Api\Resource\AllCoupon;
-use FluxSE\PayumStripe\Request\Api\Resource\AllCustomer;
-use FluxSE\PayumStripe\Request\Api\Resource\AllInterface;
-use FluxSE\PayumStripe\Request\Api\Resource\AllInvoice;
-use FluxSE\PayumStripe\Request\Api\Resource\AllSession;
-use FluxSE\PayumStripe\Request\Api\Resource\AllTaxRate;
+use Workup\PayumStripe\Action\Api\Resource\AbstractAllAction;
+use Workup\PayumStripe\Action\Api\Resource\AllCouponAction;
+use Workup\PayumStripe\Action\Api\Resource\AllCustomerAction;
+use Workup\PayumStripe\Action\Api\Resource\AllInvoiceAction;
+use Workup\PayumStripe\Action\Api\Resource\AllResourceActionInterface;
+use Workup\PayumStripe\Action\Api\Resource\AllSessionAction;
+use Workup\PayumStripe\Action\Api\Resource\AllTaxRateAction;
+use Workup\PayumStripe\Api\KeysAwareInterface;
+use Workup\PayumStripe\Request\Api\Resource\AbstractAll;
+use Workup\PayumStripe\Request\Api\Resource\AllCoupon;
+use Workup\PayumStripe\Request\Api\Resource\AllCustomer;
+use Workup\PayumStripe\Request\Api\Resource\AllInterface;
+use Workup\PayumStripe\Request\Api\Resource\AllInvoice;
+use Workup\PayumStripe\Request\Api\Resource\AllSession;
+use Workup\PayumStripe\Request\Api\Resource\AllTaxRate;
 use LogicException;
 use Payum\Core\Action\ActionInterface;
 use Payum\Core\ApiAwareInterface;
@@ -31,8 +31,8 @@ use Stripe\Customer;
 use Stripe\Invoice;
 use Stripe\Issuing\CardDetails;
 use Stripe\TaxRate;
-use Tests\FluxSE\PayumStripe\Action\Api\ApiAwareActionTestTrait;
-use Tests\FluxSE\PayumStripe\Stripe\StripeApiTestHelper;
+use Tests\Workup\PayumStripe\Action\Api\ApiAwareActionTestTrait;
+use Tests\Workup\PayumStripe\Stripe\StripeApiTestHelper;
 
 final class AllActionTest extends TestCase
 {

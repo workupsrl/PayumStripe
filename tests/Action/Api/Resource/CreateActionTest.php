@@ -1,32 +1,32 @@
 <?php
 
-namespace Tests\FluxSE\PayumStripe\Action\Api\Resource;
+namespace Tests\Workup\PayumStripe\Action\Api\Resource;
 
-use FluxSE\PayumStripe\Action\Api\Resource\AbstractCreateAction;
-use FluxSE\PayumStripe\Action\Api\Resource\CreateCouponAction;
-use FluxSE\PayumStripe\Action\Api\Resource\CreateCustomerAction;
-use FluxSE\PayumStripe\Action\Api\Resource\CreatePaymentIntentAction;
-use FluxSE\PayumStripe\Action\Api\Resource\CreatePaymentMethodAction;
-use FluxSE\PayumStripe\Action\Api\Resource\CreatePlanAction;
-use FluxSE\PayumStripe\Action\Api\Resource\CreateRefundAction;
-use FluxSE\PayumStripe\Action\Api\Resource\CreateResourceActionInterface;
-use FluxSE\PayumStripe\Action\Api\Resource\CreateSessionAction;
-use FluxSE\PayumStripe\Action\Api\Resource\CreateSetupIntentAction;
-use FluxSE\PayumStripe\Action\Api\Resource\CreateSubscriptionAction;
-use FluxSE\PayumStripe\Action\Api\Resource\CreateTaxRateAction;
-use FluxSE\PayumStripe\Api\KeysAwareInterface;
-use FluxSE\PayumStripe\Request\Api\Resource\AbstractCreate;
-use FluxSE\PayumStripe\Request\Api\Resource\CreateCoupon;
-use FluxSE\PayumStripe\Request\Api\Resource\CreateCustomer;
-use FluxSE\PayumStripe\Request\Api\Resource\CreateInterface;
-use FluxSE\PayumStripe\Request\Api\Resource\CreatePaymentIntent;
-use FluxSE\PayumStripe\Request\Api\Resource\CreatePaymentMethod;
-use FluxSE\PayumStripe\Request\Api\Resource\CreatePlan;
-use FluxSE\PayumStripe\Request\Api\Resource\CreateRefund;
-use FluxSE\PayumStripe\Request\Api\Resource\CreateSession;
-use FluxSE\PayumStripe\Request\Api\Resource\CreateSetupIntent;
-use FluxSE\PayumStripe\Request\Api\Resource\CreateSubscription;
-use FluxSE\PayumStripe\Request\Api\Resource\CreateTaxRate;
+use Workup\PayumStripe\Action\Api\Resource\AbstractCreateAction;
+use Workup\PayumStripe\Action\Api\Resource\CreateCouponAction;
+use Workup\PayumStripe\Action\Api\Resource\CreateCustomerAction;
+use Workup\PayumStripe\Action\Api\Resource\CreatePaymentIntentAction;
+use Workup\PayumStripe\Action\Api\Resource\CreatePaymentMethodAction;
+use Workup\PayumStripe\Action\Api\Resource\CreatePlanAction;
+use Workup\PayumStripe\Action\Api\Resource\CreateRefundAction;
+use Workup\PayumStripe\Action\Api\Resource\CreateResourceActionInterface;
+use Workup\PayumStripe\Action\Api\Resource\CreateSessionAction;
+use Workup\PayumStripe\Action\Api\Resource\CreateSetupIntentAction;
+use Workup\PayumStripe\Action\Api\Resource\CreateSubscriptionAction;
+use Workup\PayumStripe\Action\Api\Resource\CreateTaxRateAction;
+use Workup\PayumStripe\Api\KeysAwareInterface;
+use Workup\PayumStripe\Request\Api\Resource\AbstractCreate;
+use Workup\PayumStripe\Request\Api\Resource\CreateCoupon;
+use Workup\PayumStripe\Request\Api\Resource\CreateCustomer;
+use Workup\PayumStripe\Request\Api\Resource\CreateInterface;
+use Workup\PayumStripe\Request\Api\Resource\CreatePaymentIntent;
+use Workup\PayumStripe\Request\Api\Resource\CreatePaymentMethod;
+use Workup\PayumStripe\Request\Api\Resource\CreatePlan;
+use Workup\PayumStripe\Request\Api\Resource\CreateRefund;
+use Workup\PayumStripe\Request\Api\Resource\CreateSession;
+use Workup\PayumStripe\Request\Api\Resource\CreateSetupIntent;
+use Workup\PayumStripe\Request\Api\Resource\CreateSubscription;
+use Workup\PayumStripe\Request\Api\Resource\CreateTaxRate;
 use LogicException;
 use Payum\Core\Action\ActionInterface;
 use Payum\Core\ApiAwareInterface;
@@ -44,8 +44,8 @@ use Stripe\Refund;
 use Stripe\SetupIntent;
 use Stripe\Subscription;
 use Stripe\TaxRate;
-use Tests\FluxSE\PayumStripe\Action\Api\ApiAwareActionTestTrait;
-use Tests\FluxSE\PayumStripe\Stripe\StripeApiTestHelper;
+use Tests\Workup\PayumStripe\Action\Api\ApiAwareActionTestTrait;
+use Tests\Workup\PayumStripe\Stripe\StripeApiTestHelper;
 
 final class CreateActionTest extends TestCase
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace Tests\FluxSE\PayumStripe\Action;
+namespace Tests\Workup\PayumStripe\Action;
 
 use ArrayObject;
-use FluxSE\PayumStripe\Action\RefundAction;
-use FluxSE\PayumStripe\Request\Api\Resource\CreateRefund;
+use Workup\PayumStripe\Action\RefundAction;
+use Workup\PayumStripe\Request\Api\Resource\CreateRefund;
 use LogicException;
 use Payum\Core\Action\ActionInterface;
 use Payum\Core\ApiAwareInterface;

@@ -1,16 +1,16 @@
 <?php
 
-namespace Tests\FluxSE\PayumStripe\Action\Api\Resource;
+namespace Tests\Workup\PayumStripe\Action\Api\Resource;
 
-use FluxSE\PayumStripe\Action\Api\Resource\AbstractDeleteAction;
-use FluxSE\PayumStripe\Action\Api\Resource\DeleteCouponAction;
-use FluxSE\PayumStripe\Action\Api\Resource\DeletePlanAction;
-use FluxSE\PayumStripe\Action\Api\Resource\DeleteResourceActionInterface;
-use FluxSE\PayumStripe\Api\KeysAwareInterface;
-use FluxSE\PayumStripe\Request\Api\Resource\AbstractDelete;
-use FluxSE\PayumStripe\Request\Api\Resource\DeleteCoupon;
-use FluxSE\PayumStripe\Request\Api\Resource\DeleteInterface;
-use FluxSE\PayumStripe\Request\Api\Resource\DeletePlan;
+use Workup\PayumStripe\Action\Api\Resource\AbstractDeleteAction;
+use Workup\PayumStripe\Action\Api\Resource\DeleteCouponAction;
+use Workup\PayumStripe\Action\Api\Resource\DeletePlanAction;
+use Workup\PayumStripe\Action\Api\Resource\DeleteResourceActionInterface;
+use Workup\PayumStripe\Api\KeysAwareInterface;
+use Workup\PayumStripe\Request\Api\Resource\AbstractDelete;
+use Workup\PayumStripe\Request\Api\Resource\DeleteCoupon;
+use Workup\PayumStripe\Request\Api\Resource\DeleteInterface;
+use Workup\PayumStripe\Request\Api\Resource\DeletePlan;
 use LogicException;
 use Payum\Core\Action\ActionInterface;
 use Payum\Core\ApiAwareInterface;
@@ -23,8 +23,8 @@ use Stripe\Issuing\Card;
 use Stripe\Issuing\CardDetails;
 use Stripe\Plan;
 use Stripe\Stripe;
-use Tests\FluxSE\PayumStripe\Action\Api\ApiAwareActionTestTrait;
-use Tests\FluxSE\PayumStripe\Stripe\StripeApiTestHelper;
+use Tests\Workup\PayumStripe\Action\Api\ApiAwareActionTestTrait;
+use Tests\Workup\PayumStripe\Stripe\StripeApiTestHelper;
 
 final class DeleteActionTest extends TestCase
 {

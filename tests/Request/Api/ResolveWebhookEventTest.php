@@ -1,8 +1,8 @@
 <?php
 
-namespace Tests\FluxSE\PayumStripe\Request\Api;
+namespace Tests\Workup\PayumStripe\Request\Api;
 
-use FluxSE\PayumStripe\Request\Api\ResolveWebhookEvent;
+use Workup\PayumStripe\Request\Api\ResolveWebhookEvent;
 use Payum\Core\Model\Token;
 use Payum\Core\Request\Convert;
 use PHPUnit\Framework\TestCase;

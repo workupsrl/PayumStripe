@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Tests\FluxSE\PayumStripe\Action\Api;
+namespace Tests\Workup\PayumStripe\Action\Api;
 
-use FluxSE\PayumStripe\Action\Api\StripeApiAwareTrait;
-use FluxSE\PayumStripe\Api\KeysAwareInterface;
-use FluxSE\PayumStripe\Api\KeysAwareTrait;
+use Workup\PayumStripe\Action\Api\StripeApiAwareTrait;
+use Workup\PayumStripe\Api\KeysAwareInterface;
+use Workup\PayumStripe\Api\KeysAwareTrait;
 use PHPUnit\Framework\TestCase;
 
 final class StripeApiAwareTraitTest extends TestCase

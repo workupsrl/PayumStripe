@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace FluxSE\PayumStripe\Extension\StripeCheckoutSession;
+namespace Workup\PayumStripe\Extension\StripeCheckoutSession;
 
 use ArrayAccess;
-use FluxSE\PayumStripe\Request\Api\Resource\AbstractCustomCall;
+use Workup\PayumStripe\Request\Api\Resource\AbstractCustomCall;
 use Payum\Core\Extension\Context;
 use Payum\Core\Extension\ExtensionInterface;
 use Payum\Core\GatewayInterface;

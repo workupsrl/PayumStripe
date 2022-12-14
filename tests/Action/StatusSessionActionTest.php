@@ -1,10 +1,10 @@
 <?php
 
-namespace Tests\FluxSE\PayumStripe\Action;
+namespace Tests\Workup\PayumStripe\Action;
 
-use FluxSE\PayumStripe\Action\StatusSessionAction;
-use FluxSE\PayumStripe\Request\Api\Resource\AllInvoice;
-use FluxSE\PayumStripe\Request\Api\Resource\RetrievePaymentIntent;
+use Workup\PayumStripe\Action\StatusSessionAction;
+use Workup\PayumStripe\Request\Api\Resource\AllInvoice;
+use Workup\PayumStripe\Request\Api\Resource\RetrievePaymentIntent;
 use Payum\Core\Action\ActionInterface;
 use Payum\Core\ApiAwareInterface;
 use Payum\Core\GatewayInterface;

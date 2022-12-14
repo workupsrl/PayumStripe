@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace FluxSE\PayumStripe\Action;
+namespace Workup\PayumStripe\Action;
 
-use FluxSE\PayumStripe\Request\Api\ResolveWebhookEvent;
-use FluxSE\PayumStripe\Request\Api\WebhookEvent\WebhookEvent;
+use Workup\PayumStripe\Request\Api\ResolveWebhookEvent;
+use Workup\PayumStripe\Request\Api\WebhookEvent\WebhookEvent;
 use Payum\Core\Action\ActionInterface;
 use Payum\Core\Exception\LogicException;
 use Payum\Core\Exception\RequestNotSupportedException;

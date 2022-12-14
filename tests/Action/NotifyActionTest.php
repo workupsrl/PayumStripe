@@ -1,11 +1,11 @@
 <?php
 
-namespace Tests\FluxSE\PayumStripe\Action;
+namespace Tests\Workup\PayumStripe\Action;
 
-use FluxSE\PayumStripe\Action\NotifyAction;
-use FluxSE\PayumStripe\Request\Api\ResolveWebhookEvent;
-use FluxSE\PayumStripe\Request\Api\WebhookEvent\WebhookEvent;
-use FluxSE\PayumStripe\Wrapper\EventWrapper;
+use Workup\PayumStripe\Action\NotifyAction;
+use Workup\PayumStripe\Request\Api\ResolveWebhookEvent;
+use Workup\PayumStripe\Request\Api\WebhookEvent\WebhookEvent;
+use Workup\PayumStripe\Wrapper\EventWrapper;
 use LogicException;
 use Payum\Core\Action\ActionInterface;
 use Payum\Core\ApiAwareInterface;

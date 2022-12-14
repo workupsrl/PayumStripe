@@ -1,19 +1,19 @@
 <?php
 
-namespace Tests\FluxSE\PayumStripe\Request\Api\Resource;
+namespace Tests\Workup\PayumStripe\Request\Api\Resource;
 
-use FluxSE\PayumStripe\Request\Api\Resource\AbstractCreate;
-use FluxSE\PayumStripe\Request\Api\Resource\CreateCustomer;
-use FluxSE\PayumStripe\Request\Api\Resource\CreateInterface;
-use FluxSE\PayumStripe\Request\Api\Resource\CreatePaymentIntent;
-use FluxSE\PayumStripe\Request\Api\Resource\CreatePaymentMethod;
-use FluxSE\PayumStripe\Request\Api\Resource\CreatePlan;
-use FluxSE\PayumStripe\Request\Api\Resource\CreateRefund;
-use FluxSE\PayumStripe\Request\Api\Resource\CreateSession;
-use FluxSE\PayumStripe\Request\Api\Resource\CreateSubscription;
-use FluxSE\PayumStripe\Request\Api\Resource\CreateTaxRate;
-use FluxSE\PayumStripe\Request\Api\Resource\OptionsAwareInterface;
-use FluxSE\PayumStripe\Request\Api\Resource\ResourceAwareInterface;
+use Workup\PayumStripe\Request\Api\Resource\AbstractCreate;
+use Workup\PayumStripe\Request\Api\Resource\CreateCustomer;
+use Workup\PayumStripe\Request\Api\Resource\CreateInterface;
+use Workup\PayumStripe\Request\Api\Resource\CreatePaymentIntent;
+use Workup\PayumStripe\Request\Api\Resource\CreatePaymentMethod;
+use Workup\PayumStripe\Request\Api\Resource\CreatePlan;
+use Workup\PayumStripe\Request\Api\Resource\CreateRefund;
+use Workup\PayumStripe\Request\Api\Resource\CreateSession;
+use Workup\PayumStripe\Request\Api\Resource\CreateSubscription;
+use Workup\PayumStripe\Request\Api\Resource\CreateTaxRate;
+use Workup\PayumStripe\Request\Api\Resource\OptionsAwareInterface;
+use Workup\PayumStripe\Request\Api\Resource\ResourceAwareInterface;
 use LogicException;
 use Payum\Core\Request\Generic;
 use PHPUnit\Framework\TestCase;

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace FluxSE\PayumStripe\Action\Api\WebhookEvent;
+namespace Workup\PayumStripe\Action\Api\WebhookEvent;
 
-use FluxSE\PayumStripe\Token\TokenHashKeysInterface;
+use Workup\PayumStripe\Token\TokenHashKeysInterface;
 use Stripe\Event;
 
 final class AuthorizedPaymentIntentManuallyCanceledAction extends AbstractPaymentIntentAction

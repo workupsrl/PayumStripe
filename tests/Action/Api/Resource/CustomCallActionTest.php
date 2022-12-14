@@ -2,22 +2,22 @@
 
 declare(strict_types=1);
 
-namespace Tests\FluxSE\PayumStripe\Action\Api\Resource;
+namespace Tests\Workup\PayumStripe\Action\Api\Resource;
 
-use FluxSE\PayumStripe\Action\Api\Resource\AbstractRetrieveAction;
-use FluxSE\PayumStripe\Action\Api\Resource\CancelPaymentIntentAction;
-use FluxSE\PayumStripe\Action\Api\Resource\CancelSetupIntentAction;
-use FluxSE\PayumStripe\Action\Api\Resource\CancelSubscriptionAction;
-use FluxSE\PayumStripe\Action\Api\Resource\CapturePaymentIntentAction;
-use FluxSE\PayumStripe\Action\Api\Resource\ExpireSessionAction;
-use FluxSE\PayumStripe\Action\Api\Resource\RetrieveResourceActionInterface;
-use FluxSE\PayumStripe\Api\KeysAwareInterface;
-use FluxSE\PayumStripe\Request\Api\Resource\AbstractCustomCall;
-use FluxSE\PayumStripe\Request\Api\Resource\CancelPaymentIntent;
-use FluxSE\PayumStripe\Request\Api\Resource\CancelSetupIntent;
-use FluxSE\PayumStripe\Request\Api\Resource\CancelSubscription;
-use FluxSE\PayumStripe\Request\Api\Resource\CapturePaymentIntent;
-use FluxSE\PayumStripe\Request\Api\Resource\ExpireSession;
+use Workup\PayumStripe\Action\Api\Resource\AbstractRetrieveAction;
+use Workup\PayumStripe\Action\Api\Resource\CancelPaymentIntentAction;
+use Workup\PayumStripe\Action\Api\Resource\CancelSetupIntentAction;
+use Workup\PayumStripe\Action\Api\Resource\CancelSubscriptionAction;
+use Workup\PayumStripe\Action\Api\Resource\CapturePaymentIntentAction;
+use Workup\PayumStripe\Action\Api\Resource\ExpireSessionAction;
+use Workup\PayumStripe\Action\Api\Resource\RetrieveResourceActionInterface;
+use Workup\PayumStripe\Api\KeysAwareInterface;
+use Workup\PayumStripe\Request\Api\Resource\AbstractCustomCall;
+use Workup\PayumStripe\Request\Api\Resource\CancelPaymentIntent;
+use Workup\PayumStripe\Request\Api\Resource\CancelSetupIntent;
+use Workup\PayumStripe\Request\Api\Resource\CancelSubscription;
+use Workup\PayumStripe\Request\Api\Resource\CapturePaymentIntent;
+use Workup\PayumStripe\Request\Api\Resource\ExpireSession;
 use Payum\Core\Action\ActionInterface;
 use Payum\Core\ApiAwareInterface;
 use Payum\Core\GatewayInterface;
@@ -29,8 +29,8 @@ use Stripe\PaymentIntent;
 use Stripe\SetupIntent;
 use Stripe\Stripe;
 use Stripe\Subscription;
-use Tests\FluxSE\PayumStripe\Action\Api\ApiAwareActionTestTrait;
-use Tests\FluxSE\PayumStripe\Stripe\StripeApiTestHelper;
+use Tests\Workup\PayumStripe\Action\Api\ApiAwareActionTestTrait;
+use Tests\Workup\PayumStripe\Stripe\StripeApiTestHelper;
 
 final class CustomCallActionTest extends TestCase
 {

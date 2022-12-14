@@ -1,11 +1,11 @@
 <?php
 
-namespace Tests\FluxSE\PayumStripe\Action;
+namespace Tests\Workup\PayumStripe\Action;
 
-use FluxSE\PayumStripe\Action\SyncAction;
-use FluxSE\PayumStripe\Request\Api\Resource\RetrievePaymentIntent;
-use FluxSE\PayumStripe\Request\Api\Resource\RetrieveSession;
-use FluxSE\PayumStripe\Request\Api\Resource\RetrieveSetupIntent;
+use Workup\PayumStripe\Action\SyncAction;
+use Workup\PayumStripe\Request\Api\Resource\RetrievePaymentIntent;
+use Workup\PayumStripe\Request\Api\Resource\RetrieveSession;
+use Workup\PayumStripe\Request\Api\Resource\RetrieveSetupIntent;
 use Payum\Core\Action\ActionInterface;
 use Payum\Core\ApiAwareInterface;
 use Payum\Core\Exception\LogicException;

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Tests\FluxSE\PayumStripe\Action\Api;
+namespace Tests\Workup\PayumStripe\Action\Api;
 
-use FluxSE\PayumStripe\Api\KeysAwareInterface;
+use Workup\PayumStripe\Api\KeysAwareInterface;
 use PHPUnit\Framework\MockObject\MockObject;
 
 trait ApiAwareActionTestTrait

@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace FluxSE\PayumStripe\Action\Api;
+namespace Workup\PayumStripe\Action\Api;
 
-use FluxSE\PayumStripe\Request\Api\ConstructEvent;
-use FluxSE\PayumStripe\Request\Api\ResolveWebhookEvent;
-use FluxSE\PayumStripe\Wrapper\EventWrapperInterface;
+use Workup\PayumStripe\Request\Api\ConstructEvent;
+use Workup\PayumStripe\Request\Api\ResolveWebhookEvent;
+use Workup\PayumStripe\Wrapper\EventWrapperInterface;
 use LogicException;
 use Payum\Core\Action\ActionInterface;
 use Payum\Core\ApiAwareInterface;

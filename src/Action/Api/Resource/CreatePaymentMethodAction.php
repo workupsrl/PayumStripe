@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace FluxSE\PayumStripe\Action\Api\Resource;
+namespace Workup\PayumStripe\Action\Api\Resource;
 
-use FluxSE\PayumStripe\Request\Api\Resource\CreateInterface;
-use FluxSE\PayumStripe\Request\Api\Resource\CreatePaymentMethod;
+use Workup\PayumStripe\Request\Api\Resource\CreateInterface;
+use Workup\PayumStripe\Request\Api\Resource\CreatePaymentMethod;
 use Stripe\PaymentMethod;
 
 final class CreatePaymentMethodAction extends AbstractCreateAction

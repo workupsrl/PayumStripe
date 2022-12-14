@@ -1,11 +1,11 @@
 <?php
 
-namespace Tests\FluxSE\PayumStripe\Action\StripeJs\Api;
+namespace Tests\Workup\PayumStripe\Action\StripeJs\Api;
 
-use FluxSE\PayumStripe\Action\StripeJs\Api\RenderStripeJsAction;
-use FluxSE\PayumStripe\Api\KeysAwareInterface;
-use FluxSE\PayumStripe\Request\Api\ConstructEvent;
-use FluxSE\PayumStripe\Request\StripeJs\Api\RenderStripeJs;
+use Workup\PayumStripe\Action\StripeJs\Api\RenderStripeJsAction;
+use Workup\PayumStripe\Api\KeysAwareInterface;
+use Workup\PayumStripe\Request\Api\ConstructEvent;
+use Workup\PayumStripe\Request\StripeJs\Api\RenderStripeJs;
 use Payum\Core\Action\ActionInterface;
 use Payum\Core\ApiAwareInterface;
 use Payum\Core\GatewayAwareInterface;
@@ -16,8 +16,8 @@ use Stripe\ApiResource;
 use Stripe\Checkout\Session;
 use Stripe\PaymentIntent;
 use Stripe\SetupIntent;
-use Tests\FluxSE\PayumStripe\Action\Api\ApiAwareActionTestTrait;
-use Tests\FluxSE\PayumStripe\Action\GatewayAwareTestTrait;
+use Tests\Workup\PayumStripe\Action\Api\ApiAwareActionTestTrait;
+use Tests\Workup\PayumStripe\Action\GatewayAwareTestTrait;
 
 final class RenderStripeJsActionTest extends TestCase
 {

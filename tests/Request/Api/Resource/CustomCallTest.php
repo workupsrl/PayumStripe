@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Tests\FluxSE\PayumStripe\Request\Api\Resource;
+namespace Tests\Workup\PayumStripe\Request\Api\Resource;
 
-use FluxSE\PayumStripe\Request\Api\Resource\AbstractCustomCall;
-use FluxSE\PayumStripe\Request\Api\Resource\AbstractRetrieve;
-use FluxSE\PayumStripe\Request\Api\Resource\CancelPaymentIntent;
-use FluxSE\PayumStripe\Request\Api\Resource\CancelSubscription;
-use FluxSE\PayumStripe\Request\Api\Resource\CapturePaymentIntent;
-use FluxSE\PayumStripe\Request\Api\Resource\CustomCallInterface;
-use FluxSE\PayumStripe\Request\Api\Resource\OptionsAwareInterface;
-use FluxSE\PayumStripe\Request\Api\Resource\ResourceAwareInterface;
+use Workup\PayumStripe\Request\Api\Resource\AbstractCustomCall;
+use Workup\PayumStripe\Request\Api\Resource\AbstractRetrieve;
+use Workup\PayumStripe\Request\Api\Resource\CancelPaymentIntent;
+use Workup\PayumStripe\Request\Api\Resource\CancelSubscription;
+use Workup\PayumStripe\Request\Api\Resource\CapturePaymentIntent;
+use Workup\PayumStripe\Request\Api\Resource\CustomCallInterface;
+use Workup\PayumStripe\Request\Api\Resource\OptionsAwareInterface;
+use Workup\PayumStripe\Request\Api\Resource\ResourceAwareInterface;
 use Payum\Core\Request\Generic;
 use PHPUnit\Framework\TestCase;
 use Stripe\PaymentIntent;

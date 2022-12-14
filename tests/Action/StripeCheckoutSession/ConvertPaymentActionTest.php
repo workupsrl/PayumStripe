@@ -1,10 +1,10 @@
 <?php
 
-namespace Tests\FluxSE\PayumStripe\Action\StripeCheckoutSession;
+namespace Tests\Workup\PayumStripe\Action\StripeCheckoutSession;
 
-use FluxSE\PayumStripe\Action\StripeCheckoutSession\ConvertPaymentAction;
-use FluxSE\PayumStripe\Api\KeysAwareInterface;
-use FluxSE\PayumStripe\Api\StripeCheckoutSessionApiInterface;
+use Workup\PayumStripe\Action\StripeCheckoutSession\ConvertPaymentAction;
+use Workup\PayumStripe\Api\KeysAwareInterface;
+use Workup\PayumStripe\Api\StripeCheckoutSessionApiInterface;
 use Payum\Core\Action\ActionInterface;
 use Payum\Core\GatewayInterface;
 use Payum\Core\Model\Payment;
@@ -12,7 +12,7 @@ use Payum\Core\Request\Capture;
 use Payum\Core\Request\Convert;
 use PHPUnit\Framework\TestCase;
 use Stripe\Checkout\Session;
-use Tests\FluxSE\PayumStripe\Action\Api\ApiAwareActionTestTrait;
+use Tests\Workup\PayumStripe\Action\Api\ApiAwareActionTestTrait;
 
 final class ConvertPaymentActionTest extends TestCase
 {

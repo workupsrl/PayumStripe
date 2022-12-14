@@ -1,9 +1,9 @@
 <?php
 
-namespace Tests\FluxSE\PayumStripe\Request\Api;
+namespace Tests\Workup\PayumStripe\Request\Api;
 
-use FluxSE\PayumStripe\Request\Api\ConstructEvent;
-use FluxSE\PayumStripe\Wrapper\EventWrapper;
+use Workup\PayumStripe\Request\Api\ConstructEvent;
+use Workup\PayumStripe\Wrapper\EventWrapper;
 use LogicException;
 use Payum\Core\Request\Generic;
 use PHPUnit\Framework\TestCase;

@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Tests\FluxSE\PayumStripe\Action\Api\WebhookEvent;
+namespace Tests\Workup\PayumStripe\Action\Api\WebhookEvent;
 
-use FluxSE\PayumStripe\Action\Api\WebhookEvent\AbstractWebhookEventAction;
-use FluxSE\PayumStripe\Action\Api\WebhookEvent\StripeWebhookTestAction;
-use FluxSE\PayumStripe\Request\Api\WebhookEvent\WebhookEvent;
-use FluxSE\PayumStripe\Wrapper\EventWrapper;
+use Workup\PayumStripe\Action\Api\WebhookEvent\AbstractWebhookEventAction;
+use Workup\PayumStripe\Action\Api\WebhookEvent\StripeWebhookTestAction;
+use Workup\PayumStripe\Request\Api\WebhookEvent\WebhookEvent;
+use Workup\PayumStripe\Wrapper\EventWrapper;
 use Payum\Core\Action\ActionInterface;
 use Payum\Core\ApiAwareInterface;
 use Payum\Core\Exception\RequestNotSupportedException;
@@ -15,7 +15,7 @@ use Payum\Core\Reply\HttpResponse;
 use Payum\Core\Request\Capture;
 use PHPUnit\Framework\TestCase;
 use Stripe\Event;
-use Tests\FluxSE\PayumStripe\Action\GatewayAwareTestTrait;
+use Tests\Workup\PayumStripe\Action\GatewayAwareTestTrait;
 
 final class StripeWebhookTestActionTest extends TestCase
 {

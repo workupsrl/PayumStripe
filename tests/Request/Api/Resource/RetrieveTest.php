@@ -1,21 +1,21 @@
 <?php
 
-namespace Tests\FluxSE\PayumStripe\Request\Api\Resource;
+namespace Tests\Workup\PayumStripe\Request\Api\Resource;
 
-use FluxSE\PayumStripe\Request\Api\Resource\AbstractRetrieve;
-use FluxSE\PayumStripe\Request\Api\Resource\OptionsAwareInterface;
-use FluxSE\PayumStripe\Request\Api\Resource\ResourceAwareInterface;
-use FluxSE\PayumStripe\Request\Api\Resource\RetrieveCharge;
-use FluxSE\PayumStripe\Request\Api\Resource\RetrieveCustomer;
-use FluxSE\PayumStripe\Request\Api\Resource\RetrieveInterface;
-use FluxSE\PayumStripe\Request\Api\Resource\RetrieveInvoice;
-use FluxSE\PayumStripe\Request\Api\Resource\RetrievePaymentIntent;
-use FluxSE\PayumStripe\Request\Api\Resource\RetrievePaymentMethod;
-use FluxSE\PayumStripe\Request\Api\Resource\RetrievePlan;
-use FluxSE\PayumStripe\Request\Api\Resource\RetrieveProduct;
-use FluxSE\PayumStripe\Request\Api\Resource\RetrieveSession;
-use FluxSE\PayumStripe\Request\Api\Resource\RetrieveSetupIntent;
-use FluxSE\PayumStripe\Request\Api\Resource\RetrieveSubscription;
+use Workup\PayumStripe\Request\Api\Resource\AbstractRetrieve;
+use Workup\PayumStripe\Request\Api\Resource\OptionsAwareInterface;
+use Workup\PayumStripe\Request\Api\Resource\ResourceAwareInterface;
+use Workup\PayumStripe\Request\Api\Resource\RetrieveCharge;
+use Workup\PayumStripe\Request\Api\Resource\RetrieveCustomer;
+use Workup\PayumStripe\Request\Api\Resource\RetrieveInterface;
+use Workup\PayumStripe\Request\Api\Resource\RetrieveInvoice;
+use Workup\PayumStripe\Request\Api\Resource\RetrievePaymentIntent;
+use Workup\PayumStripe\Request\Api\Resource\RetrievePaymentMethod;
+use Workup\PayumStripe\Request\Api\Resource\RetrievePlan;
+use Workup\PayumStripe\Request\Api\Resource\RetrieveProduct;
+use Workup\PayumStripe\Request\Api\Resource\RetrieveSession;
+use Workup\PayumStripe\Request\Api\Resource\RetrieveSetupIntent;
+use Workup\PayumStripe\Request\Api\Resource\RetrieveSubscription;
 use LogicException;
 use Payum\Core\Request\Generic;
 use PHPUnit\Framework\TestCase;

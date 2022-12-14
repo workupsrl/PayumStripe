@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace FluxSE\PayumStripe\Action\StripeCheckoutSession;
+namespace Workup\PayumStripe\Action\StripeCheckoutSession;
 
 use ArrayObject;
-use FluxSE\PayumStripe\Action\AbstractCaptureAction;
-use FluxSE\PayumStripe\Request\Api\Resource\CreateSession;
-use FluxSE\PayumStripe\Request\CaptureAuthorized;
-use FluxSE\PayumStripe\Request\StripeCheckoutSession\Api\RedirectToCheckout;
+use Workup\PayumStripe\Action\AbstractCaptureAction;
+use Workup\PayumStripe\Request\Api\Resource\CreateSession;
+use Workup\PayumStripe\Request\CaptureAuthorized;
+use Workup\PayumStripe\Request\StripeCheckoutSession\Api\RedirectToCheckout;
 use Payum\Core\Request\Generic;
 use Payum\Core\Security\TokenInterface;
 use Stripe\ApiResource;

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace FluxSE\PayumStripe\Action;
+namespace Workup\PayumStripe\Action;
 
 use Payum\Core\Bridge\Spl\ArrayObject;
 use Payum\Core\Request\GetStatusInterface;

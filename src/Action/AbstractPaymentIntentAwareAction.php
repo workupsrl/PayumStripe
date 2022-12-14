@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace FluxSE\PayumStripe\Action;
+namespace Workup\PayumStripe\Action;
 
-use FluxSE\PayumStripe\Request\Api\Resource\UpdatePaymentIntent;
+use Workup\PayumStripe\Request\Api\Resource\UpdatePaymentIntent;
 use Payum\Core\Action\ActionInterface;
 use Payum\Core\Bridge\Spl\ArrayObject;
 use Payum\Core\GatewayAwareInterface;

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace FluxSE\PayumStripe\Action\Api\Resource;
+namespace Workup\PayumStripe\Action\Api\Resource;
 
-use FluxSE\PayumStripe\Request\Api\Resource\RetrieveInterface;
-use FluxSE\PayumStripe\Request\Api\Resource\RetrieveInvoice;
+use Workup\PayumStripe\Request\Api\Resource\RetrieveInterface;
+use Workup\PayumStripe\Request\Api\Resource\RetrieveInvoice;
 use Stripe\Invoice;
 
 final class RetrieveInvoiceAction extends AbstractRetrieveAction

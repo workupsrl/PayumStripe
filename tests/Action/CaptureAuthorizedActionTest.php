@@ -1,12 +1,12 @@
 <?php
 
-namespace Tests\FluxSE\PayumStripe\Action;
+namespace Tests\Workup\PayumStripe\Action;
 
 use ArrayObject;
-use FluxSE\PayumStripe\Action\CaptureAuthorizedAction;
-use FluxSE\PayumStripe\Request\Api\Resource\CapturePaymentIntent;
-use FluxSE\PayumStripe\Request\Api\Resource\UpdatePaymentIntent;
-use FluxSE\PayumStripe\Request\CaptureAuthorized;
+use Workup\PayumStripe\Action\CaptureAuthorizedAction;
+use Workup\PayumStripe\Request\Api\Resource\CapturePaymentIntent;
+use Workup\PayumStripe\Request\Api\Resource\UpdatePaymentIntent;
+use Workup\PayumStripe\Request\CaptureAuthorized;
 use LogicException;
 use Payum\Core\Action\ActionInterface;
 use Payum\Core\ApiAwareInterface;

@@ -2,18 +2,18 @@
 
 declare(strict_types=1);
 
-namespace Tests\FluxSE\PayumStripe\Action\Api\WebhookEvent;
+namespace Tests\Workup\PayumStripe\Action\Api\WebhookEvent;
 
-use FluxSE\PayumStripe\Action\Api\WebhookEvent\AbstractPaymentAction;
-use FluxSE\PayumStripe\Request\Api\WebhookEvent\WebhookEvent;
-use FluxSE\PayumStripe\Wrapper\EventWrapper;
+use Workup\PayumStripe\Action\Api\WebhookEvent\AbstractPaymentAction;
+use Workup\PayumStripe\Request\Api\WebhookEvent\WebhookEvent;
+use Workup\PayumStripe\Wrapper\EventWrapper;
 use Payum\Core\Exception\RequestNotSupportedException;
 use Payum\Core\Model\Token;
 use Payum\Core\Request\GetToken;
 use Payum\Core\Request\Notify;
 use PHPUnit\Framework\TestCase;
 use Stripe\Event;
-use Tests\FluxSE\PayumStripe\Action\GatewayAwareTestTrait;
+use Tests\Workup\PayumStripe\Action\GatewayAwareTestTrait;
 
 final class AbstractPaymentActionTest extends TestCase
 {

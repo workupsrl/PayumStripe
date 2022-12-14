@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace FluxSE\PayumStripe\Action;
+namespace Workup\PayumStripe\Action;
 
-use FluxSE\PayumStripe\Request\Api\Resource\AllInvoice;
-use FluxSE\PayumStripe\Request\Api\Resource\RetrievePaymentIntent;
+use Workup\PayumStripe\Request\Api\Resource\AllInvoice;
+use Workup\PayumStripe\Request\Api\Resource\RetrievePaymentIntent;
 use Payum\Core\Bridge\Spl\ArrayObject;
 use Payum\Core\Request\GetStatusInterface;
 use Stripe\Checkout\Session;

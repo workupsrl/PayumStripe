@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace FluxSE\PayumStripe\Request\StripeCheckoutSession\Api;
+namespace Workup\PayumStripe\Request\StripeCheckoutSession\Api;
 
 use Payum\Core\Request\Generic;
 

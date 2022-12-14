@@ -1,34 +1,34 @@
 <?php
 
-namespace Tests\FluxSE\PayumStripe\Action\Api\Resource;
+namespace Tests\Workup\PayumStripe\Action\Api\Resource;
 
-use FluxSE\PayumStripe\Action\Api\Resource\AbstractRetrieveAction;
-use FluxSE\PayumStripe\Action\Api\Resource\RetrieveChargeAction;
-use FluxSE\PayumStripe\Action\Api\Resource\RetrieveCouponAction;
-use FluxSE\PayumStripe\Action\Api\Resource\RetrieveCustomerAction;
-use FluxSE\PayumStripe\Action\Api\Resource\RetrieveInvoiceAction;
-use FluxSE\PayumStripe\Action\Api\Resource\RetrievePaymentIntentAction;
-use FluxSE\PayumStripe\Action\Api\Resource\RetrievePaymentMethodAction;
-use FluxSE\PayumStripe\Action\Api\Resource\RetrievePlanAction;
-use FluxSE\PayumStripe\Action\Api\Resource\RetrieveProductAction;
-use FluxSE\PayumStripe\Action\Api\Resource\RetrieveResourceActionInterface;
-use FluxSE\PayumStripe\Action\Api\Resource\RetrieveSessionAction;
-use FluxSE\PayumStripe\Action\Api\Resource\RetrieveSetupIntentAction;
-use FluxSE\PayumStripe\Action\Api\Resource\RetrieveSubscriptionAction;
-use FluxSE\PayumStripe\Api\KeysAwareInterface;
-use FluxSE\PayumStripe\Request\Api\Resource\AbstractRetrieve;
-use FluxSE\PayumStripe\Request\Api\Resource\RetrieveCharge;
-use FluxSE\PayumStripe\Request\Api\Resource\RetrieveCoupon;
-use FluxSE\PayumStripe\Request\Api\Resource\RetrieveCustomer;
-use FluxSE\PayumStripe\Request\Api\Resource\RetrieveInterface;
-use FluxSE\PayumStripe\Request\Api\Resource\RetrieveInvoice;
-use FluxSE\PayumStripe\Request\Api\Resource\RetrievePaymentIntent;
-use FluxSE\PayumStripe\Request\Api\Resource\RetrievePaymentMethod;
-use FluxSE\PayumStripe\Request\Api\Resource\RetrievePlan;
-use FluxSE\PayumStripe\Request\Api\Resource\RetrieveProduct;
-use FluxSE\PayumStripe\Request\Api\Resource\RetrieveSession;
-use FluxSE\PayumStripe\Request\Api\Resource\RetrieveSetupIntent;
-use FluxSE\PayumStripe\Request\Api\Resource\RetrieveSubscription;
+use Workup\PayumStripe\Action\Api\Resource\AbstractRetrieveAction;
+use Workup\PayumStripe\Action\Api\Resource\RetrieveChargeAction;
+use Workup\PayumStripe\Action\Api\Resource\RetrieveCouponAction;
+use Workup\PayumStripe\Action\Api\Resource\RetrieveCustomerAction;
+use Workup\PayumStripe\Action\Api\Resource\RetrieveInvoiceAction;
+use Workup\PayumStripe\Action\Api\Resource\RetrievePaymentIntentAction;
+use Workup\PayumStripe\Action\Api\Resource\RetrievePaymentMethodAction;
+use Workup\PayumStripe\Action\Api\Resource\RetrievePlanAction;
+use Workup\PayumStripe\Action\Api\Resource\RetrieveProductAction;
+use Workup\PayumStripe\Action\Api\Resource\RetrieveResourceActionInterface;
+use Workup\PayumStripe\Action\Api\Resource\RetrieveSessionAction;
+use Workup\PayumStripe\Action\Api\Resource\RetrieveSetupIntentAction;
+use Workup\PayumStripe\Action\Api\Resource\RetrieveSubscriptionAction;
+use Workup\PayumStripe\Api\KeysAwareInterface;
+use Workup\PayumStripe\Request\Api\Resource\AbstractRetrieve;
+use Workup\PayumStripe\Request\Api\Resource\RetrieveCharge;
+use Workup\PayumStripe\Request\Api\Resource\RetrieveCoupon;
+use Workup\PayumStripe\Request\Api\Resource\RetrieveCustomer;
+use Workup\PayumStripe\Request\Api\Resource\RetrieveInterface;
+use Workup\PayumStripe\Request\Api\Resource\RetrieveInvoice;
+use Workup\PayumStripe\Request\Api\Resource\RetrievePaymentIntent;
+use Workup\PayumStripe\Request\Api\Resource\RetrievePaymentMethod;
+use Workup\PayumStripe\Request\Api\Resource\RetrievePlan;
+use Workup\PayumStripe\Request\Api\Resource\RetrieveProduct;
+use Workup\PayumStripe\Request\Api\Resource\RetrieveSession;
+use Workup\PayumStripe\Request\Api\Resource\RetrieveSetupIntent;
+use Workup\PayumStripe\Request\Api\Resource\RetrieveSubscription;
 use LogicException;
 use Payum\Core\Action\ActionInterface;
 use Payum\Core\ApiAwareInterface;
@@ -47,8 +47,8 @@ use Stripe\Plan;
 use Stripe\Product;
 use Stripe\SetupIntent;
 use Stripe\Subscription;
-use Tests\FluxSE\PayumStripe\Action\Api\ApiAwareActionTestTrait;
-use Tests\FluxSE\PayumStripe\Stripe\StripeApiTestHelper;
+use Tests\Workup\PayumStripe\Action\Api\ApiAwareActionTestTrait;
+use Tests\Workup\PayumStripe\Stripe\StripeApiTestHelper;
 
 final class RetrieveActionTest extends TestCase
 {

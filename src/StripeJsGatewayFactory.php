@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace FluxSE\PayumStripe;
+namespace Workup\PayumStripe;
 
-use FluxSE\PayumStripe\Action\StripeJs\Api\RenderStripeJsAction;
-use FluxSE\PayumStripe\Action\StripeJs\AuthorizeAction;
-use FluxSE\PayumStripe\Action\StripeJs\CaptureAction;
-use FluxSE\PayumStripe\Action\StripeJs\ConvertPaymentAction;
-use FluxSE\PayumStripe\Api\KeysAwareInterface;
-use FluxSE\PayumStripe\Api\StripeCheckoutSessionApi;
+use Workup\PayumStripe\Action\StripeJs\Api\RenderStripeJsAction;
+use Workup\PayumStripe\Action\StripeJs\AuthorizeAction;
+use Workup\PayumStripe\Action\StripeJs\CaptureAction;
+use Workup\PayumStripe\Action\StripeJs\ConvertPaymentAction;
+use Workup\PayumStripe\Api\KeysAwareInterface;
+use Workup\PayumStripe\Api\StripeCheckoutSessionApi;
 use Payum\Core\Bridge\Spl\ArrayObject;
 use Stripe\PaymentIntent;
 

@@ -1,9 +1,9 @@
 <?php
 
-namespace Tests\FluxSE\PayumStripe\Api;
+namespace Tests\Workup\PayumStripe\Api;
 
-use FluxSE\PayumStripe\Api\StripeJsApi;
-use FluxSE\PayumStripe\Api\StripeJsApiInterface;
+use Workup\PayumStripe\Api\StripeJsApi;
+use Workup\PayumStripe\Api\StripeJsApiInterface;
 use PHPUnit\Framework\TestCase;
 
 final class StripeJsApiTest extends TestCase

@@ -2,22 +2,22 @@
 
 declare(strict_types=1);
 
-namespace FluxSE\PayumStripe;
+namespace Workup\PayumStripe;
 
-use FluxSE\PayumStripe\Action\StripeCheckoutSession\Api\RedirectToCheckoutAction;
-use FluxSE\PayumStripe\Action\StripeCheckoutSession\Api\WebhookEvent\CheckoutSessionAsyncPaymentFailedAction;
-use FluxSE\PayumStripe\Action\StripeCheckoutSession\Api\WebhookEvent\CheckoutSessionAsyncPaymentSucceededAction;
-use FluxSE\PayumStripe\Action\StripeCheckoutSession\Api\WebhookEvent\CheckoutSessionCompletedAction;
-use FluxSE\PayumStripe\Action\StripeCheckoutSession\AuthorizeAction;
-use FluxSE\PayumStripe\Action\StripeCheckoutSession\CancelAction;
-use FluxSE\PayumStripe\Action\StripeCheckoutSession\CaptureAction;
-use FluxSE\PayumStripe\Action\StripeCheckoutSession\ConvertPaymentAction;
-use FluxSE\PayumStripe\Api\KeysAwareInterface;
-use FluxSE\PayumStripe\Api\StripeCheckoutSessionApi;
-use FluxSE\PayumStripe\Api\StripeCheckoutSessionApiInterface;
-use FluxSE\PayumStripe\Extension\StripeCheckoutSession\CancelUrlCancelPaymentIntentExtension;
-use FluxSE\PayumStripe\Extension\StripeCheckoutSession\CancelUrlCancelSetupIntentExtension;
-use FluxSE\PayumStripe\Extension\StripeCheckoutSession\CancelUrlExpireSessionExtension;
+use Workup\PayumStripe\Action\StripeCheckoutSession\Api\RedirectToCheckoutAction;
+use Workup\PayumStripe\Action\StripeCheckoutSession\Api\WebhookEvent\CheckoutSessionAsyncPaymentFailedAction;
+use Workup\PayumStripe\Action\StripeCheckoutSession\Api\WebhookEvent\CheckoutSessionAsyncPaymentSucceededAction;
+use Workup\PayumStripe\Action\StripeCheckoutSession\Api\WebhookEvent\CheckoutSessionCompletedAction;
+use Workup\PayumStripe\Action\StripeCheckoutSession\AuthorizeAction;
+use Workup\PayumStripe\Action\StripeCheckoutSession\CancelAction;
+use Workup\PayumStripe\Action\StripeCheckoutSession\CaptureAction;
+use Workup\PayumStripe\Action\StripeCheckoutSession\ConvertPaymentAction;
+use Workup\PayumStripe\Api\KeysAwareInterface;
+use Workup\PayumStripe\Api\StripeCheckoutSessionApi;
+use Workup\PayumStripe\Api\StripeCheckoutSessionApiInterface;
+use Workup\PayumStripe\Extension\StripeCheckoutSession\CancelUrlCancelPaymentIntentExtension;
+use Workup\PayumStripe\Extension\StripeCheckoutSession\CancelUrlCancelSetupIntentExtension;
+use Workup\PayumStripe\Extension\StripeCheckoutSession\CancelUrlExpireSessionExtension;
 use Payum\Core\Bridge\Spl\ArrayObject;
 
 final class StripeCheckoutSessionGatewayFactory extends AbstractStripeGatewayFactory

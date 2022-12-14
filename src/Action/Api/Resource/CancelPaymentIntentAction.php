@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace FluxSE\PayumStripe\Action\Api\Resource;
+namespace Workup\PayumStripe\Action\Api\Resource;
 
-use FluxSE\PayumStripe\Request\Api\Resource\CancelPaymentIntent;
-use FluxSE\PayumStripe\Request\Api\Resource\CustomCallInterface;
-use FluxSE\PayumStripe\Request\Api\Resource\RetrieveInterface;
+use Workup\PayumStripe\Request\Api\Resource\CancelPaymentIntent;
+use Workup\PayumStripe\Request\Api\Resource\CustomCallInterface;
+use Workup\PayumStripe\Request\Api\Resource\RetrieveInterface;
 use Stripe\ApiResource;
 use Stripe\PaymentIntent;
 

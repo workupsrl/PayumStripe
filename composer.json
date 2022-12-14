@@ -1,5 +1,5 @@
 {
-    "name": "flux-se/payum-stripe",
+    "name": "workup/payum-stripe",
     "description": "Payum Stripe gateways",
     "type": "library",
     "keywords": [
@@ -21,10 +21,10 @@
         "ext-json": "*"
     },
     "autoload": {
-        "psr-4": { "FluxSE\\PayumStripe\\": "src/" }
+        "psr-4": { "Workup\\PayumStripe\\": "src/" }
     },
     "autoload-dev": {
-        "psr-4": { "Tests\\FluxSE\\PayumStripe\\": "tests/" }
+        "psr-4": { "Tests\\Workup\\PayumStripe\\": "tests/" }
     },
     "license": "MIT",
     "extra": {
@@ -32,10 +32,4 @@
             "dev-master": "2.0-dev"
         }
     },
-    "authors": [
-        {
-            "name": "Francis HILAIRE",
-            "email": "Prometee@users.noreply.github.com"
-        }
-    ]
 }

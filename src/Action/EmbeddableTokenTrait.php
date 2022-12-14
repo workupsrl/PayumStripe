@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace FluxSE\PayumStripe\Action;
+namespace Workup\PayumStripe\Action;
 
 use ArrayObject;
-use FluxSE\PayumStripe\Token\TokenHashKeysInterface;
+use Workup\PayumStripe\Token\TokenHashKeysInterface;
 use LogicException;
 use Payum\Core\Request\Generic;
 use Payum\Core\Security\GenericTokenFactoryAwareTrait;

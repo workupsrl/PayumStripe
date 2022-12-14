@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace FluxSE\PayumStripe\Request\Api;
+namespace Workup\PayumStripe\Request\Api;
 
-use FluxSE\PayumStripe\Wrapper\EventWrapperInterface;
+use Workup\PayumStripe\Wrapper\EventWrapperInterface;
 use Payum\Core\Request\Convert;
 use Payum\Core\Security\TokenInterface;
 

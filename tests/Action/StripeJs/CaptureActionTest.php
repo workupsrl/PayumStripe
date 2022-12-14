@@ -1,13 +1,13 @@
 <?php
 
-namespace Tests\FluxSE\PayumStripe\Action\StripeJs;
+namespace Tests\Workup\PayumStripe\Action\StripeJs;
 
 use ArrayObject;
-use FluxSE\PayumStripe\Action\AbstractCaptureAction;
-use FluxSE\PayumStripe\Action\StripeJs\CaptureAction;
-use FluxSE\PayumStripe\Request\Api\Resource\CreatePaymentIntent;
-use FluxSE\PayumStripe\Request\CaptureAuthorized;
-use FluxSE\PayumStripe\Request\StripeJs\Api\RenderStripeJs;
+use Workup\PayumStripe\Action\AbstractCaptureAction;
+use Workup\PayumStripe\Action\StripeJs\CaptureAction;
+use Workup\PayumStripe\Request\Api\Resource\CreatePaymentIntent;
+use Workup\PayumStripe\Request\CaptureAuthorized;
+use Workup\PayumStripe\Request\StripeJs\Api\RenderStripeJs;
 use LogicException;
 use Payum\Core\Model\Identity;
 use Payum\Core\Model\PaymentInterface;
@@ -20,7 +20,7 @@ use Payum\Core\Security\GenericTokenFactoryInterface;
 use Payum\Core\Storage\IdentityInterface;
 use PHPUnit\Framework\TestCase;
 use Stripe\PaymentIntent;
-use Tests\FluxSE\PayumStripe\Action\GatewayAwareTestTrait;
+use Tests\Workup\PayumStripe\Action\GatewayAwareTestTrait;
 
 final class CaptureActionTest extends TestCase
 {

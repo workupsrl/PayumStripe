@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace FluxSE\PayumStripe\Request;
+namespace Workup\PayumStripe\Request;
 
 use Payum\Core\Request\Generic;
 

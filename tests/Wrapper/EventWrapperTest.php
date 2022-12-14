@@ -1,9 +1,9 @@
 <?php
 
-namespace Tests\FluxSE\PayumStripe\Wrapper;
+namespace Tests\Workup\PayumStripe\Wrapper;
 
-use FluxSE\PayumStripe\Wrapper\EventWrapper;
-use FluxSE\PayumStripe\Wrapper\EventWrapperInterface;
+use Workup\PayumStripe\Wrapper\EventWrapper;
+use Workup\PayumStripe\Wrapper\EventWrapperInterface;
 use PHPUnit\Framework\TestCase;
 use Stripe\Event;
 

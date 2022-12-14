@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Tests\FluxSE\PayumStripe\Resources\Views\Action;
+namespace Tests\Workup\PayumStripe\Resources\Views\Action;
 
-use FluxSE\PayumStripe\StripeJsGatewayFactory;
+use Workup\PayumStripe\StripeJsGatewayFactory;
 use Payum\Core\Gateway;
 use PHPUnit\Framework\TestCase;
 use ReflectionClass;

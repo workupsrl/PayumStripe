@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace FluxSE\PayumStripe\Action\StripeJs;
+namespace Workup\PayumStripe\Action\StripeJs;
 
 use ArrayObject;
-use FluxSE\PayumStripe\Action\AbstractCaptureAction;
-use FluxSE\PayumStripe\Request\Api\Resource\CreatePaymentIntent;
-use FluxSE\PayumStripe\Request\CaptureAuthorized;
-use FluxSE\PayumStripe\Request\StripeJs\Api\RenderStripeJs;
+use Workup\PayumStripe\Action\AbstractCaptureAction;
+use Workup\PayumStripe\Request\Api\Resource\CreatePaymentIntent;
+use Workup\PayumStripe\Request\CaptureAuthorized;
+use Workup\PayumStripe\Request\StripeJs\Api\RenderStripeJs;
 use Payum\Core\Request\Generic;
 use Stripe\ApiResource;
 

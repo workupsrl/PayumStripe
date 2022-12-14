@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace FluxSE\PayumStripe\Action;
+namespace Workup\PayumStripe\Action;
 
 use ArrayAccess;
-use FluxSE\PayumStripe\Request\Api\Resource\RetrieveInterface;
-use FluxSE\PayumStripe\Request\Api\Resource\RetrievePaymentIntent;
-use FluxSE\PayumStripe\Request\Api\Resource\RetrieveSession;
-use FluxSE\PayumStripe\Request\Api\Resource\RetrieveSetupIntent;
+use Workup\PayumStripe\Request\Api\Resource\RetrieveInterface;
+use Workup\PayumStripe\Request\Api\Resource\RetrievePaymentIntent;
+use Workup\PayumStripe\Request\Api\Resource\RetrieveSession;
+use Workup\PayumStripe\Request\Api\Resource\RetrieveSetupIntent;
 use Payum\Core\Action\ActionInterface;
 use Payum\Core\Bridge\Spl\ArrayObject;
 use Payum\Core\Exception\LogicException;

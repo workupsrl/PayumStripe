@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Tests\FluxSE\PayumStripe\Action;
+namespace Tests\Workup\PayumStripe\Action;
 
 use Payum\Core\GatewayInterface;
 use PHPUnit\Framework\MockObject\MockObject;

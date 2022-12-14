@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Tests\FluxSE\PayumStripe\Request\Api\Resource;
+namespace Tests\Workup\PayumStripe\Request\Api\Resource;
 
-use FluxSE\PayumStripe\Request\Api\Resource\AbstractUpdate;
-use FluxSE\PayumStripe\Request\Api\Resource\OptionsAwareInterface;
-use FluxSE\PayumStripe\Request\Api\Resource\ResourceAwareInterface;
-use FluxSE\PayumStripe\Request\Api\Resource\UpdateInterface;
-use FluxSE\PayumStripe\Request\Api\Resource\UpdateSubscription;
+use Workup\PayumStripe\Request\Api\Resource\AbstractUpdate;
+use Workup\PayumStripe\Request\Api\Resource\OptionsAwareInterface;
+use Workup\PayumStripe\Request\Api\Resource\ResourceAwareInterface;
+use Workup\PayumStripe\Request\Api\Resource\UpdateInterface;
+use Workup\PayumStripe\Request\Api\Resource\UpdateSubscription;
 use LogicException;
 use Payum\Core\Request\Generic;
 use PHPUnit\Framework\TestCase;

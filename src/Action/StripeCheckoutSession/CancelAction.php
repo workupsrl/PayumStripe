@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace FluxSE\PayumStripe\Action\StripeCheckoutSession;
+namespace Workup\PayumStripe\Action\StripeCheckoutSession;
 
 use ArrayAccess;
-use FluxSE\PayumStripe\Request\Api\Resource\AllSession;
-use FluxSE\PayumStripe\Request\Api\Resource\ExpireSession;
+use Workup\PayumStripe\Request\Api\Resource\AllSession;
+use Workup\PayumStripe\Request\Api\Resource\ExpireSession;
 use Payum\Core\Action\ActionInterface;
 use Payum\Core\Bridge\Spl\ArrayObject;
 use Payum\Core\Exception\RequestNotSupportedException;

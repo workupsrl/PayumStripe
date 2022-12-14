@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace FluxSE\PayumStripe\Action\Api\WebhookEvent;
+namespace Workup\PayumStripe\Action\Api\WebhookEvent;
 
 use Stripe\Event;
 

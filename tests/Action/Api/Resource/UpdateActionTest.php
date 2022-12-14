@@ -1,18 +1,18 @@
 <?php
 
-namespace Tests\FluxSE\PayumStripe\Action\Api\Resource;
+namespace Tests\Workup\PayumStripe\Action\Api\Resource;
 
-use FluxSE\PayumStripe\Action\Api\Resource\AbstractUpdateAction;
-use FluxSE\PayumStripe\Action\Api\Resource\UpdateCouponAction;
-use FluxSE\PayumStripe\Action\Api\Resource\UpdatePaymentIntentAction;
-use FluxSE\PayumStripe\Action\Api\Resource\UpdateResourceActionInterface;
-use FluxSE\PayumStripe\Action\Api\Resource\UpdateSubscriptionAction;
-use FluxSE\PayumStripe\Api\KeysAwareInterface;
-use FluxSE\PayumStripe\Request\Api\Resource\AbstractUpdate;
-use FluxSE\PayumStripe\Request\Api\Resource\UpdateCoupon;
-use FluxSE\PayumStripe\Request\Api\Resource\UpdateInterface;
-use FluxSE\PayumStripe\Request\Api\Resource\UpdatePaymentIntent;
-use FluxSE\PayumStripe\Request\Api\Resource\UpdateSubscription;
+use Workup\PayumStripe\Action\Api\Resource\AbstractUpdateAction;
+use Workup\PayumStripe\Action\Api\Resource\UpdateCouponAction;
+use Workup\PayumStripe\Action\Api\Resource\UpdatePaymentIntentAction;
+use Workup\PayumStripe\Action\Api\Resource\UpdateResourceActionInterface;
+use Workup\PayumStripe\Action\Api\Resource\UpdateSubscriptionAction;
+use Workup\PayumStripe\Api\KeysAwareInterface;
+use Workup\PayumStripe\Request\Api\Resource\AbstractUpdate;
+use Workup\PayumStripe\Request\Api\Resource\UpdateCoupon;
+use Workup\PayumStripe\Request\Api\Resource\UpdateInterface;
+use Workup\PayumStripe\Request\Api\Resource\UpdatePaymentIntent;
+use Workup\PayumStripe\Request\Api\Resource\UpdateSubscription;
 use LogicException;
 use Payum\Core\Action\ActionInterface;
 use Payum\Core\ApiAwareInterface;
@@ -23,8 +23,8 @@ use Stripe\Coupon;
 use Stripe\Issuing\CardDetails;
 use Stripe\PaymentIntent;
 use Stripe\Subscription;
-use Tests\FluxSE\PayumStripe\Action\Api\ApiAwareActionTestTrait;
-use Tests\FluxSE\PayumStripe\Stripe\StripeApiTestHelper;
+use Tests\Workup\PayumStripe\Action\Api\ApiAwareActionTestTrait;
+use Tests\Workup\PayumStripe\Stripe\StripeApiTestHelper;
 
 final class UpdateActionTest extends TestCase
 {

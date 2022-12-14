@@ -1,17 +1,17 @@
 <?php
 
-namespace Tests\FluxSE\PayumStripe\Extension\StripeCheckoutSession;
+namespace Tests\Workup\PayumStripe\Extension\StripeCheckoutSession;
 
 use Exception;
-use FluxSE\PayumStripe\Extension\StripeCheckoutSession\AbstractCancelUrlExtension;
-use FluxSE\PayumStripe\Extension\StripeCheckoutSession\CancelUrlCancelPaymentIntentExtension;
-use FluxSE\PayumStripe\Extension\StripeCheckoutSession\CancelUrlCancelSetupIntentExtension;
-use FluxSE\PayumStripe\Extension\StripeCheckoutSession\CancelUrlExpireSessionExtension;
-use FluxSE\PayumStripe\Request\Api\Resource\AllSession;
-use FluxSE\PayumStripe\Request\Api\Resource\CancelPaymentIntent;
-use FluxSE\PayumStripe\Request\Api\Resource\CancelSetupIntent;
-use FluxSE\PayumStripe\Request\Api\Resource\CustomCallInterface;
-use FluxSE\PayumStripe\Request\Api\Resource\ExpireSession;
+use Workup\PayumStripe\Extension\StripeCheckoutSession\AbstractCancelUrlExtension;
+use Workup\PayumStripe\Extension\StripeCheckoutSession\CancelUrlCancelPaymentIntentExtension;
+use Workup\PayumStripe\Extension\StripeCheckoutSession\CancelUrlCancelSetupIntentExtension;
+use Workup\PayumStripe\Extension\StripeCheckoutSession\CancelUrlExpireSessionExtension;
+use Workup\PayumStripe\Request\Api\Resource\AllSession;
+use Workup\PayumStripe\Request\Api\Resource\CancelPaymentIntent;
+use Workup\PayumStripe\Request\Api\Resource\CancelSetupIntent;
+use Workup\PayumStripe\Request\Api\Resource\CustomCallInterface;
+use Workup\PayumStripe\Request\Api\Resource\ExpireSession;
 use Payum\Core\Extension\Context;
 use Payum\Core\Model\Token;
 use Payum\Core\Request\GetHttpRequest;
@@ -25,7 +25,7 @@ use Stripe\Collection;
 use Stripe\Exception\UnknownApiErrorException;
 use Stripe\PaymentIntent;
 use Stripe\SetupIntent;
-use Tests\FluxSE\PayumStripe\Action\GatewayAwareTestTrait;
+use Tests\Workup\PayumStripe\Action\GatewayAwareTestTrait;
 
 final class CancelUrlExtensionTest extends TestCase
 {

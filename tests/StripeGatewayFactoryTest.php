@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace Tests\FluxSE\PayumStripe;
+namespace Tests\Workup\PayumStripe;
 
-use FluxSE\PayumStripe\AbstractStripeGatewayFactory;
-use FluxSE\PayumStripe\Action as GlobalAction;
-use FluxSE\PayumStripe\Action\StripeCheckoutSession;
-use FluxSE\PayumStripe\Action\StripeJs;
-use FluxSE\PayumStripe\Action\StripeJs\Api\RenderStripeJsAction;
-use FluxSE\PayumStripe\Api\KeysAwareInterface;
-use FluxSE\PayumStripe\Api\StripeCheckoutSessionApiInterface;
-use FluxSE\PayumStripe\StripeCheckoutSessionGatewayFactory;
-use FluxSE\PayumStripe\StripeJsGatewayFactory;
+use Workup\PayumStripe\AbstractStripeGatewayFactory;
+use Workup\PayumStripe\Action as GlobalAction;
+use Workup\PayumStripe\Action\StripeCheckoutSession;
+use Workup\PayumStripe\Action\StripeJs;
+use Workup\PayumStripe\Action\StripeJs\Api\RenderStripeJsAction;
+use Workup\PayumStripe\Api\KeysAwareInterface;
+use Workup\PayumStripe\Api\StripeCheckoutSessionApiInterface;
+use Workup\PayumStripe\StripeCheckoutSessionGatewayFactory;
+use Workup\PayumStripe\StripeJsGatewayFactory;
 use Payum\Core\Bridge\Spl\ArrayObject;
 use Payum\Core\Exception\LogicException;
 use Payum\Core\GatewayFactoryInterface;

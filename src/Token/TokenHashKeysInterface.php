@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace FluxSE\PayumStripe\Token;
+namespace Workup\PayumStripe\Token;
 
 interface TokenHashKeysInterface
 {

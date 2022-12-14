@@ -24,7 +24,7 @@ declare(strict_types=1);
 $loader = require_once( __DIR__.'/vendor/autoload.php');
 
 use Payum\Core\GatewayFactoryInterface;
-use FluxSE\PayumStripe\StripeCheckoutSessionGatewayFactory;
+use Workup\PayumStripe\StripeCheckoutSessionGatewayFactory;
 use Payum\Core\PayumBuilder;
 use Payum\Core\Payum;
 
@@ -222,5 +222,5 @@ The [`NotifyAction.php`](../../src/Action/NotifyAction.php) will ask for 2 other
 2. Give this resolved `Event` to an `Action` able to consume this `Event`.
 
 So if you want to consume another webhook event type, you just need to create an `Action`
-extending [`FluxSE\PayumStripe\Action\Api\WebhookEvent\AbstractWebhookEventAction`](../../src/Action/Api/WebhookEvent/AbstractWebhookEventAction.php).
+extending [`Workup\PayumStripe\Action\Api\WebhookEvent\AbstractWebhookEventAction`](../../src/Action/Api/WebhookEvent/AbstractWebhookEventAction.php).
 Examples available into the [`src/Action/Api/WebhookEvent/`](../../src/Action/Api/WebhookEvent) folder.
